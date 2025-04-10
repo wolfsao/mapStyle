@@ -3,14 +3,10 @@
   "sources": {
     "amap": {
       "type": "raster",
-      "tiles": ["https://webrd02.is.autonavi.com/appmaptile?lang=zh_en&size=1&scale=1&style=8&x={x}&y={y}&z={z}"],
-      "attribution": "<a href=\"https://www.amap.com\" target=\"_blank\">&copy; AMap</a>",
+      "tiles": ["https://nlp.navinfo.com/nlp/maptile/api/v1/rastermap?catalog=SAM25-NDS-254-Static-China-BMW-OneADMap-WHL&dataSource=merge&z={z}&x={x}&y={y}&version=0&apiKey=d0188e37414f45d6acfec5084bf819d0"],
+      "attribution": "<a href=\"https://nlp.navinfo.com\" target=\"_blank\">&copy; NLP</a>",
       "minzoom": 0,
       "maxzoom": 20
-    },
-    "maptiler_attribution": {
-      "type": "raster",
-      "attribution": "<a href=\"https://www.amap.com\" target=\"_blank\">&copy; AMap</a>"
     }
   },
   "layers": [
