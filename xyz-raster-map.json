@@ -1,18 +1,22 @@
 {
   "version": 8,
   "sources": {
-    "my-raster-source": {
+    "amap": {
       "type": "raster",
       "tiles": ["https://webrd02.is.autonavi.com/appmaptile?lang=zh_en&size=1&scale=1&style=8&x={x}&y={y}&z={z}"],
       "minzoom": 0,
       "maxzoom": 20
+    },
+    "maptiler_attribution": {
+      "type": "raster",
+      "attribution": "<a href=\"https://www.amap.com\" target=\"_blank\">&copy; MapTiler</a> <a href=\"https://www.amap.com\" target=\"_blank\">&copy; AMap</a>"
     }
   },
   "layers": [
     {
-      "id": "my-raster-layer",
+      "id": "amap-layer",
       "type": "raster",
-      "source": "my-raster-source"
+      "source": "amap"
     }
   ]
 }
